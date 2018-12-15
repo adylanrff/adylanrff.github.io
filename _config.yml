@@ -1,5 +1,5 @@
 name: Adylan Roaffa
-description: I make things work.
+description: Software engineer by day, superhero by night.
 meta_description: "Adylan Roaffa, tech blog"
 
 aboutPage: true
@@ -18,8 +18,14 @@ disqus_shortname: 'your-disqus-shortname'
 url:            'http://adylanrff.me'
 author:         'Adylan Roaffa'
 authorTwitter:  'adylanrff'
+authorGithub: 'adylanrff'
+authorLinkedin: 'adylan-roaffa'
 
-permalink:       /:year/:title/
+permalink:       /:title/
+
+collections:
+    portfolios:
+        output: true
 
 defaults:
     -
@@ -40,3 +46,9 @@ defaults:
             type: drafts
         values:
             layout: post
+    -
+        scope:
+            path: ""
+            type: portfolios
+        values:
+            layout: portfolio

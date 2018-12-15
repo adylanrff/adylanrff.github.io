@@ -4,6 +4,10 @@ permalink: about/
 profile: true
 ---
 
-This is a static page. It could be an 'about page' if you'd like.
+Computer Science student at Bandung Institue of Technology.
+
+Particularly interested in software engineering, data engineering, and machine learning. Loves to tweet, watch mindbending movies, and listen to any music.
+
+Reach me out!
 
 {% include footer.html %}

@@ -1,0 +1,25 @@
+<ul id="portfolio-list">
+  {% for portfolio in site.portfolios %}
+      <li>
+        <div class="portfolio-container">
+          <a href="{{ "/" | relative_url  }}{{ portfolio.url | remove_first: '/' }}">
+            {% if portfolio.img %} 
+              <img class="portfolio-img" src="{{ "/" | relative_url  }}{{portfolio.img}}"/>
+            {% else %}
+            <img class="portfolio-img" src="https://picsum.photos/g/300/300"/>
+            {% endif %}
+            
+            <div class="overlay">
+              <div class="text" >
+                {{portfolio.title}}
+              </div>
+            </div>
+          </a>
+        </div>
+      </li>
+  {% endfor %}
+</ul>
+
+{% if paginator.previous_page or paginator.next_page %}
+  {% include pagination.html %}
+{% endif %}

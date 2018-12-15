@@ -6,5 +6,9 @@
     {% if page.url != "/about/" %}
         <a href="{{ "/" | relative_url  }}about">About </a>
     {% endif %}
-    <a class="cta" href="{{ "/" | relative_url  }}feed.xml">Subscribe</a>
+
+    {% if page.url != "/portfolio/" %}
+        <a href="{{ "/" | relative_url  }}portfolio">Portfolio </a>
+    {% endif %}
+    
 </nav>
