@@ -1,6 +1,7 @@
 ---
 title:  "30 Days Of Writing"
 description: Writing Challenge
+tags: [30daysofwriting]
 ---
 
 Holiday is coming, yeay.
