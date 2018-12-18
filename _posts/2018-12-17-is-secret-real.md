@@ -1,5 +1,5 @@
 ---
-title:  "+"
+title:  "+ - #2"
 description: How a book can change the way I think about wishes.
 tags: [30daysofwriting]
 ---
