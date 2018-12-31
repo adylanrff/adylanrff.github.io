@@ -71,7 +71,7 @@ def verify_password(password):
 
 Dengan dipisahnya masing-masing validasi sehingga punya fungsinya masing-masing, abstraksi untuk setiap fungsi pada kode di atas sudah pasti menjadi *single abstraction*. Pada fungsi `verify_registration`, hanya ada pemanggilan fungsi-fungsi verifikasi untuk masing-masing komponen yang harus divalidasi. Dengan begini, *SLAP* sudah terpenuhi. 
 
-This should be a quote for us, programmers, to live by.
+This should be a quote for us, programmers, to live by:
 
 > “Any fool can write code that a computer can understand. Good programmers write code that humans can understand.” – Martin Fowler
 
