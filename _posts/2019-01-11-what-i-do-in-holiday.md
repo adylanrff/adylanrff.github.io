@@ -26,7 +26,7 @@ Yuk, **mulai** baca buku!
 2. Latihan Coding Interview
 
 
-Mungkin terdengar *no-life* banget ya. Liburan kok ngoding. Liburan kok belajar. Tapi sadarilah kawan-kawan, terutama yang anak informatika, kalau kalian mau kerja nanti, hampir pasti kalian akan ditemukan dengan yang namanya *coding test*, baik itu online ataupun interview. 
+Mungkin terdengar *no-life* banget ya. Liburan kok ngoding. Liburan kok belajar. Tapi sadarilah kawan-kawan, terutama yang anak informatika, kalau kalian mau kerja nanti, hampir pasti kalian akan dipertemukan dengan yang namanya *coding test*, baik itu online ataupun interview. 
 
 Percayalah, ini bukan sesuatu yang bisa dikebut satu malam. Bahkan menurut gue, seminggu masih belum cukup. Mengerjakan soal-soal algoritma yang diberikan *interviewer* membutuhkan pola pikir yang udah cukup matang. Terbiasa dengan bahasa yang digunakan, biar nggak kagok. Terlebih lagi, sudah tahu bakal pakai algoritma apa untuk menyelesaikan persoalan-persoalan yang diberikan. 
 
