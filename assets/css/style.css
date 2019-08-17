@@ -51,6 +51,7 @@ margin-bottom: 20px;
 html, body { height: 100%; }
 
 body {
+	background: #ffffff;
 	font:16px/1 "Helvetica Neue", Helvetica, Arial, sans-serif;
 	color: #666;
 	-webkit-font-smoothing: antialiased;
@@ -109,15 +110,13 @@ h2 {
 }
 
 nav.main-nav {
-	padding: 20px 20px 0;
-
-	/*max-width: 600px;*/
-	/*width:100%;*/
-	background: #fff;
-	background: rgba(255,255,255,.90);
+	padding: 20px;
+	width:100%;
+	position: fixed;
+	background: rgba(255, 255, 255, 0.9);
+	border-bottom: 1px solid rgb(235, 235, 235);
 	margin: 0 auto;
 	text-align: right;
-	/*position: fixed;*/
 	z-index: 100;
 }
 
@@ -125,7 +124,7 @@ nav.main-nav a {
 	top: 8px;
 	right: 6px;
 	padding: 8px 12px;
-	color: #5badf0;
+	color: #5cb5ff;
 	font-size: 13px;
 	/*font-weight: bold;*/
 	line-height: 1.35;
