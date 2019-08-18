@@ -7,15 +7,31 @@ aboutPage: true
 markdown: kramdown
 highlighter: rouge
 
-plugins: [jekyll-paginate]
+plugins: 
+    - jekyll-paginate
+    - jekyll-seo-tag  
 paginate: 20
-domain_name: 'http://adylanrff.me'
+domain_name: 'https://adylanroaffa.com'
 google_analytics: 'UA-XXXXXXXX-X'
 disqus: false
 disqus_shortname: 'your-disqus-shortname'
 
+# SEO tags
+title: 'Adylan Roaffa'
+description: 'Adylan Roaffa personal blog'
+author: 'adylanrff'
+twitter: 
+    username: 'adylanrff'
+    card: 'summary'
+social:
+  name: Adylan Roaffa Ilmyy
+  links:
+    - https://twitter.com/adylanrff
+    - https://www.linkedin.com/in/adylan-roaffa
+    - https://github.com/adylanrff
+
 # Details for the RSS feed generator
-url:            'http://adylanrff.me'
+url:            'https://adylanroaffa.com'
 author:         'Adylan Roaffa'
 authorTwitter:  'adylanrff'
 authorGithub: 'adylanrff'
